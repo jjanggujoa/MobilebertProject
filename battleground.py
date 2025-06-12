@@ -50,4 +50,4 @@ with open(csv_filename, "w", newline='', encoding="utf-8-sig") as csvfile:
             'recommendationid': r['recommendationid']
         })
 
-print(f"완료! 총 {len(all_reviews)}개의 중복 제거된 리뷰가 '{csv_filename}'에 저장되었습니다.")
+print("완료! 총 {len(all_reviews)}개의 중복 제거된 리뷰가 '{csv_filename}'에 저장되었습니다.")

@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 
+
 df = pd.read_csv('pubg_reviews_all.csv')
 
 allowed_pattern = re.compile(r"^[a-zA-Z0-9\s.,!?'\-]+$")
